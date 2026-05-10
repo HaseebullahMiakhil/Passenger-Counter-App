@@ -1,6 +1,8 @@
-let counter  = 0 
-console.log(counter)
+// document.getElementById("count").innerText = 5
 
-let MyAge = 30 * 40
-console.log(MyAge)
+let count = 5 + 4
+
+
+
+console.log(count)
 
