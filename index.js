@@ -1,6 +1,7 @@
 function increment() {
     console.log("The button was clicked")
 }
+
 function countdown() {
     console.log(5)
     console.log(4)
