@@ -1,10 +1,12 @@
+// document.getElementById("count").innerText = 5
 
-let lap1 = 34
-let lap2 = 33
-let lap3 = 36
+// change the count-el in the HTML to reflect the new count
 
-function loglaptime(){
-    let totaltime = lap1 + lap2 + lap3
-    console.log(totaltime)
+let count = 0
+
+function increment() {
+    count = count + 1
+    console.log(count)
 }
-loglaptime()
+
+
