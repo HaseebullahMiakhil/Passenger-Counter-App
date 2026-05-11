@@ -1,5 +1,5 @@
-function numberfortytwo(){
-    console.log("42")
+function mysum(){
+    console.log(34+33+36)
 }
 
-numberfortytwo()
+mysum()
