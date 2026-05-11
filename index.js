@@ -1,16 +1,5 @@
-function increment() {
-    console.log("The button was clicked")
+function numberfortytwo(){
+    console.log("42")
 }
 
-function countdown() {
-    console.log(5)
-    console.log(4)
-    console.log(3)
-    console.log(2)
-    console.log(1)
-}
-
-countdown()
-countdown()
-countdown()
-countdown()
+numberfortytwo()
