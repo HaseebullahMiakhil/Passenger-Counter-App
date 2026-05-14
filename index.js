@@ -1,7 +1,14 @@
-let name = "Per Harald Borgen"
-let greeting = "Hi, my name is "
+let countEl = document.getElementById("count-el")
+let count = 0
 
-let myGreeting = greeting + name
+function increment() {
+    // Change this to use the plus equal technique you've learned
+    count = count + 1
+    countEl.innerText = count
+}
 
-console.log(myGreeting)
-console.log(100 + "100")
+function save() {
+    console.log(count)
+}
+
+
